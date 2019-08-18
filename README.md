@@ -28,6 +28,11 @@ sharefile.exe Stop
 # Remove Service
 sharefile remove
 
+# fole logs look inside windows audit event
+
+# run it in debug mode (make sure you stop service before running in debug mode)
+sharefile debug 
+
 
 ```
 
